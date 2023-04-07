@@ -14,30 +14,51 @@
 - Install [NodeJS](https://nodejs.org/en/)
 
 ## Setting Up
-### 1. Clone/Download the Repository
+### 1. Fork and Clone the repository 
+ `git clone https://github.com/devx15/AI_NFT_Generator.git`
 
-### 2. Install Dependencies:
-`$ npm install`
+### 2. Setting up Node:
+  1. Install node.js from the link given below:
+  'https://nodejs.org/en/download'
+  2. Run the the following command in CMD/Terminal
+   `$ npm install`
+  3. This command will download npm and all its dependencies.
 
-### 3. Setup .env file:
-Before running any scripts, you'll want to create a .env file with the following values:
+### 4. Setting up the '.env' file
+  '.env' file stores private tokens which are required to identify the user. Here we would be storing two tokens created from Hugging Face and NFT Storage. 
+   1. Create an account on 'Huggging Face' website
+      'https://huggingface.co/join'
+   2. Create a personal token and copy the token in .env file in the following format 
+           **REACT_APP_HUGGING_FACE_API_KEY="---Copy HERE---"**
+   3. Create an account on NFT.Storage :
+      'https://nft.storage/login/'
+   4. Create a personal token and copy the token in .env file in the following format 
+            **REACT_APP_NFT_STORAGE_API_KEY="---Copy HERE---"**
 
-- **REACT_APP_HUGGING_FACE_API_KEY=""**
-- **REACT_APP_NFT_STORAGE_API_KEY=""**
 
-You'll need to create an account on [Hugging Face](https://huggingface.co/), visit your profile settings, and create a read access token. 
+### 4. Setting up 'Hardhat'
+    Hardhat is used to run and compile the solidity code. Follow these steps for setting up hardhat:
+   1. Install the hardhat packages by running the following command on CMD/Terminal
+   `$ npm install --save-dev hardhat`
+   2. Run a test 
+   `$ npx hardhat test`
+   3. After successful run initiate the Hardhat Node by using the following command on CMD/Terminal
+   `$ npx hardhat node`
+   4. Twenty accounts and their private keys would be generated.
+   5. Copy any private key from one of them.
 
-You'll also need to create an account on [NFT.Storage](https://nft.storage/), and create a new API key.
+### 5. Setting up Metamask
+   1. Download and create an account on Metamask 
+      'https://metamask.io/download/'
+   2. After creating an account import an account by pasting the private key copied earlier.
+   3. Click on add network and add network manually, configure the network accordingly.
 
-### 4. Run tests
-`$ npx hardhat test`
-
-### 5. Start Hardhat node
-`$ npx hardhat node`
-
-### 6. Run deployment script
-In a separate terminal execute:
+### 6. In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
 
 ### 7. Start frontend
 `$ npm run start`
+### 8. Final Step
+  1. After deploying, a webpage would appear.
+  2. Click on connect button.
+  3. Now your setup is complete, create your NFT.......
