@@ -30,6 +30,7 @@
       'https://huggingface.co/join'
    2. Create a personal token and copy the token in .env file in the following format 
            **REACT_APP_HUGGING_FACE_API_KEY="---Copy HERE---"**
+           https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img1.png
    3. Create an account on NFT.Storage :
       'https://nft.storage/login/'
    4. Create a personal token and copy the token in .env file in the following format 
