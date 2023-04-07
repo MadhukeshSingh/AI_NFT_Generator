@@ -20,7 +20,7 @@
 `$ npm install`
 
 ### 3. Setup .env file:
-Before running any scripts, you'll want to create a .env file with the following values (see .env.example):
+Before running any scripts, you'll want to create a .env file with the following values:
 
 - **REACT_APP_HUGGING_FACE_API_KEY=""**
 - **REACT_APP_NFT_STORAGE_API_KEY=""**
