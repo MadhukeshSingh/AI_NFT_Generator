@@ -28,9 +28,13 @@
   '.env' file stores private tokens which are required to identify the user. Here we would be storing two tokens created from Hugging Face and NFT Storage. 
    1. Create an account on 'Huggging Face' website
       'https://huggingface.co/join'
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img1.png)
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img2.png)
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img3.png)
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img4.png)
    2. Create a personal token and copy the token in .env file in the following format 
            **REACT_APP_HUGGING_FACE_API_KEY="---Copy HERE---"**
-          ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img1.png)
+          
    3. Create an account on NFT.Storage :
       'https://nft.storage/login/'
    4. Create a personal token and copy the token in .env file in the following format 
