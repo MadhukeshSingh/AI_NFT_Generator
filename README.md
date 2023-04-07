@@ -28,13 +28,19 @@
   '.env' file stores private tokens which are required to identify the user. Here we would be storing two tokens created from Hugging Face and NFT Storage. 
    1. Create an account on 'Huggging Face' website
       'https://huggingface.co/join'
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img1.png)
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img2.png)
+    
    2. Create a personal token and copy the token in .env file in the following format 
            **REACT_APP_HUGGING_FACE_API_KEY="---Copy HERE---"**
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img3.png)
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img4.png)
    3. Create an account on NFT.Storage :
       'https://nft.storage/login/'
+      ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img5.png)
    4. Create a personal token and copy the token in .env file in the following format 
             **REACT_APP_NFT_STORAGE_API_KEY="---Copy HERE---"**
-
+![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img6.png)
 
 ### 4. Setting up 'Hardhat'
     Hardhat is used to run and compile the solidity code. Follow these steps for setting up hardhat:
@@ -51,7 +57,10 @@
    1. Download and create an account on Metamask 
       'https://metamask.io/download/'
    2. After creating an account import an account by pasting the private key copied earlier.
-   3. Click on add network and add network manually, configure the network accordingly.
+   ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img7.png)
+   ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img8.png)
+   4. Click on add network and add network manually, configure the network accordingly.
+  ![PHOTOS!](https://github.com/ManikSingh29/AI_NFT_Generator/blob/main/Photos/Screenshot%202023-04-08%20000152.png)
 
 ### 6. In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
@@ -62,3 +71,4 @@
   1. After deploying, a webpage would appear.
   2. Click on connect button.
   3. Now your setup is complete, create your NFT.......
+  ![PHOTOS!](https://github.com/devx15/AI_NFT_Generator/blob/main/Photos/img9.png)
